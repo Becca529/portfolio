@@ -25,16 +25,6 @@ a:hover {
     color: #DF9322;
 }
 
-/* a.btn {
-	color: #fff;
-	border-radius: 4px;
-	text-transform: uppercase;
-	background-color: #DF9322;
-	font-weight: 800;
-    text-align: center;
-    padding: 5px;
-    margin: 10px;
-} */
 
 hr {
 	width: 150px;
@@ -171,8 +161,6 @@ i {
 p span {
 	padding: 5px;
 	display: block;
-	/* font-weight: bolder; */
-	/* font-size: 25px; */
 }
 
 .projects .grid li {
@@ -189,11 +177,14 @@ p span {
 }
 
 .projects .grid li p {
-    margin: 0;
+    margin: 0 auto;
+}
+
+a.project:hover {
+	color: #555;
 }
 
 .project-description {
-	padding: 20px;
 	min-height: 270px;
 	font-size: 14px;
 }
@@ -202,12 +193,10 @@ p span {
     display: flex;
     justify-content: space-around;
 	list-style: none;
-	margin: 2em auto;
-	padding: 5px 20px 5px 20px;
+	padding: 0px 20px 5px 20px;
   }
 
   .proj-link {
-	text-align: center;
 	width: 100px;
 	color: #fff;
 	border-radius: 4px;
@@ -219,13 +208,6 @@ p span {
     margin: 10px;
   }
 
-  .proj-links  {
-	/* display: flex;
-	flex-direction: row;
-	align-items: center;  */
-	/* justify-content: space-evenly; */
-
- }
 
   .tech-icon {
 	height: 45px;
@@ -240,7 +222,6 @@ p span {
   .project-screenshot {
     width: 100%;
 	overflow: hidden;
-	/* margin-bottom: -20px; */
   }
 
   .project-screenshot img {
