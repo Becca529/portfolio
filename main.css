@@ -25,7 +25,7 @@ a:hover {
     color: #DF9322;
 }
 
-a.btn {
+/* a.btn {
 	color: #fff;
 	border-radius: 4px;
 	text-transform: uppercase;
@@ -34,7 +34,7 @@ a.btn {
     text-align: center;
     padding: 5px;
     margin: 10px;
-}
+} */
 
 hr {
 	width: 150px;
@@ -206,6 +206,27 @@ p span {
 	padding: 5px 20px 5px 20px;
   }
 
+  .proj-link {
+	text-align: center;
+	width: 100px;
+	color: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: #DF9322;
+	font-weight: 800;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .proj-links  {
+	/* display: flex;
+	flex-direction: row;
+	align-items: center;  */
+	/* justify-content: space-evenly; */
+
+ }
+
   .tech-icon {
 	height: 45px;
 	width: 45px;
@@ -219,7 +240,7 @@ p span {
   .project-screenshot {
     width: 100%;
 	overflow: hidden;
-	margin-bottom: -20px;
+	/* margin-bottom: -20px; */
   }
 
   .project-screenshot img {
